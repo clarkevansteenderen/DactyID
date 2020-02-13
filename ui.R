@@ -1,7 +1,10 @@
 mypackages <- c("shiny", "shinyhelper", "magrittr", "DECIPHER", "seqinr", "shinyFiles", "shinythemes", "dendextend")
 checkpkg <- mypackages[!(mypackages %in% installed.packages()[,"Package"])]
 if(length(checkpkg)) install.packages(checkpkg, dependencies = TRUE)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
 
+BiocManager::install("DECIPHER")
 
 
 library(shiny)
