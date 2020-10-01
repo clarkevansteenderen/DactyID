@@ -23,7 +23,7 @@
 
 The R Shiny online application is accessible here:
 
-https://github.com/CJMvS/DactyID
+https://clarkevansteenderen.shinyapps.io/Dactylopius_ID_version_1/?_ga=2.60138989.1168690128.1601562927-2015717805.1599643639
 
 It can also be accessed by typing
 
