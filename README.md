@@ -9,7 +9,7 @@
 
 *Department of Zoology and Entomology*
 
-[*The Centre for Biological Control*] (https://www.ru.ac.za/centreforbiologicalcontrol/)
+[*The Centre for Biological Control*](https://www.ru.ac.za/centreforbiologicalcontrol/)
 
 *Rhodes University, Grahamstown, Eastern Cape, South Africa*
 
@@ -20,6 +20,16 @@
 ---
 
 **OVERVIEW**
+
+The R Shiny online application is accessible here:
+
+https://github.com/CJMvS/DactyID
+
+It can also be accessed by typing
+
+shiny::runGitHub("DactyID", "CJMvS")
+
+into the R console. Ensure that the R shiny package is installed prior to running this line of code.
 
 This program is designed for the quick identification of *Dactylopius* species (Hemiptera: Dactylopiidae), but can be applied to any taxon if the relevant 
 database of genetic sequences is supplied.
