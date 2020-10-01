@@ -1,8 +1,7 @@
 ## **DACTYLOPIUS IDENTIFIER** 
+[![DOI](https://zenodo.org/badge/237636523.svg)](https://zenodo.org/badge/latestdoi/237636523)
 
 ### **USER GUIDE**
-
----
 
 *Created by:*
 
@@ -17,8 +16,6 @@
 *2019*
 
 *e-mail:* vsteenderen@gmail.com
-
----
 
 **OVERVIEW**
 
