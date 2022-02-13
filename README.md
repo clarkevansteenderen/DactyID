@@ -1,6 +1,8 @@
 ## **DACTYLOPIUS IDENTIFIER** 
 [![DOI](https://zenodo.org/badge/237636523.svg)](https://zenodo.org/badge/latestdoi/237636523)
 
+<img src="https://github.com/clarkevansteenderen/DactyID/blob/master/www/logo.png" height = 250>
+
 ### **USER GUIDE**
 
 *Created by:*
