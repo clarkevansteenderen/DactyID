@@ -27,7 +27,7 @@ https://clarkevansteenderen.shinyapps.io/Dactylopius_ID_version_1/?_ga=2.6013898
 
 It can also be accessed by typing
 
-shiny::runGitHub("DactyID", "CJMvS")
+`shiny::runGitHub("DactyID", "CJMvS")`
 
 into the R console. Ensure that the R shiny package is installed prior to running this line of code.
 
