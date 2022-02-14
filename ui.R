@@ -28,9 +28,10 @@ ui <- fluidPage(theme = shinytheme("flatly"),
     sidebarPanel(strong("Click to view the help file:", style = "color:darkgreen")
                  %>% helper(type = "markdown", content = "DactylopiusIdentifier_Manual", colour = "green", icon = "question-circle"),
                  br(),
-                 fileInput("inFile", "Upload a .fas file"),
+                 
                  # list.files("Gene_databases/") is the name of the folder in this project's file (Dactylopius Identifier R/ DactylopiusID) which contains .fas files
                  selectInput("selectfile","Select File", choice = c(list.files("Gene_databases/"), "Own file upload"), selected = "Own file upload" ),
+                 fileInput("inFile", "Upload a .fas file"),
                  textInput("name", label = "Enter sequence name:", value = ">QUERY"),
                  textAreaInput("nuc_seq", label = "Enter nucleotide sequence:", placeholder = "e.g. AGCTTT", height = "250px"),
                  selectInput("distCorrection", "Distance correction method", choices = c("none", "Jukes-Cantor"), selected = "Jukes-Cantor"),
